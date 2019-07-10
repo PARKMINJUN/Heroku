@@ -5,7 +5,4 @@ class BlogPost(forms.ModelForm):
     class Meta:
         model = Blog
         fields = ['title','body']
-        labels = {
-            "title": "제목",
-            "body": "내용"
-        }
+     
